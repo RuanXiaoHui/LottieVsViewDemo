@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/ic_add_circle_black_24dp">
+
+    <target
+        android:animation="@animator/rotationscript"
+        android:name="plus"/>
+
+    <target
+        android:animation="@animator/colorscript"
+        android:name="circle"/>
+</animated-vector>
